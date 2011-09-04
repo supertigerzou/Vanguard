@@ -34,8 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.4.1.10715.0\lib\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data.Entity" />
@@ -71,6 +71,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\AeroWindow.css" />
+    <Content Include="Content\movie.png" />
+    <Content Include="Content\movie.s.png" />
+    <Content Include="Content\news.png" />
+    <Content Include="Content\news.s.png" />
+    <Content Include="Content\notes.png" />
+    <Content Include="Content\notes.s.png" />
+    <Content Include="Content\shopping_cart.png" />
+    <Content Include="Content\shopping_cart.s.png" />
+    <Content Include="Content\terminal.png" />
+    <Content Include="Content\terminal.s.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -127,17 +138,63 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\users_edit.s.png" />
+    <Content Include="Content\users_edit.png" />
+    <Content Include="Content\win7-desktop-bg.jpg" />
+    <Content Include="Content\WindowsAeroStyle\active\bl.png" />
+    <Content Include="Content\WindowsAeroStyle\active\bm.png" />
+    <Content Include="Content\WindowsAeroStyle\active\br.png" />
+    <Content Include="Content\WindowsAeroStyle\active\btn-close.png" />
+    <Content Include="Content\WindowsAeroStyle\active\btn-max.png" />
+    <Content Include="Content\WindowsAeroStyle\active\btn-min.png" />
+    <Content Include="Content\WindowsAeroStyle\active\btn-reg.png" />
+    <Content Include="Content\WindowsAeroStyle\active\lines.png" />
+    <Content Include="Content\WindowsAeroStyle\active\lm.png" />
+    <Content Include="Content\WindowsAeroStyle\active\mm.png" />
+    <Content Include="Content\WindowsAeroStyle\active\rm.png" />
+    <Content Include="Content\WindowsAeroStyle\active\tl.png" />
+    <Content Include="Content\WindowsAeroStyle\active\tm.png" />
+    <Content Include="Content\WindowsAeroStyle\active\tr.png" />
+    <Content Include="Content\WindowsAeroStyle\empty.gif" />
+    <Content Include="Content\WindowsAeroStyle\hover\btn-close.png" />
+    <Content Include="Content\WindowsAeroStyle\hover\btn-max.png" />
+    <Content Include="Content\WindowsAeroStyle\hover\btn-min.png" />
+    <Content Include="Content\WindowsAeroStyle\hover\btn-reg.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\bl.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\bm.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\br.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\btn-close.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\btn-max.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\btn-min.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\btn-reg.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\lines.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\lm.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\mm.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\rm.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\tl.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\tm.png" />
+    <Content Include="Content\WindowsAeroStyle\inactive\tr.png" />
+    <Content Include="Content\WindowsAeroStyle\left.png" />
+    <Content Include="Content\WindowsAeroStyle\right.png" />
+    <Content Include="Content\WindowsAeroStyle\spacer.png" />
     <Content Include="Global.asax" />
     <Content Include="README.jQuery.vsdoc.txt" />
     <Content Include="Scripts\jquery-1.6.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.2.js" />
     <Content Include="Scripts\jquery-1.6.2.min.js" />
+    <Content Include="Scripts\jquery-AeroWindow.3.51.js" />
     <Content Include="Scripts\jquery-ui-1.8.15.js" />
     <Content Include="Scripts\jquery-ui-1.8.15.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.16.js" />
+    <Content Include="Scripts\jquery-ui-1.8.16.min.js" />
+    <Content Include="Scripts\jquery.easing.1.3.js" />
+    <Content Include="Scripts\jquery.jqDock.js" />
+    <Content Include="Scripts\jquery.jqDock.min.js" />
     <Content Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
+    <Content Include="Scripts\modernizr.min.js" />
     <Content Include="Scripts\plugins.js" />
     <Content Include="Scripts\script.js" />
     <Content Include="Web.config" />

@@ -32,7 +32,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body { margin: 0; font-size: 13px; line-height: 1.231; }
+body { margin: 0; font-size: 13px; line-height: 1.231; background: #09368b url(win7-desktop-bg.jpg);}
 
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
@@ -208,10 +208,12 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author: 
+   Author: victor
    ========================================================================== */
 
-
+/*position and hide the menu initially - leave room for menu items to expand...*/
+#page {width:100%;}
+#menu {position:absolute; bottom:45px; left:40%; display:none;}
 
 
 
@@ -290,3 +292,5 @@ td { vertical-align: top; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+
+
