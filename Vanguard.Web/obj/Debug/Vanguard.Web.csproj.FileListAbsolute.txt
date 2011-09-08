@@ -1,7 +1,6 @@
 D:\Vanguard\Vanguard.Web\bin\Vanguard.dll
 D:\Vanguard\Vanguard.Web\bin\Vanguard.pdb
 D:\Vanguard\Vanguard.Web\bin\EntityFramework.dll
-D:\Vanguard\Vanguard.Web\bin\EntityFramework.xml
 D:\Vanguard\Vanguard.Web\obj\Debug\ResolveAssemblyReference.cache
 D:\Vanguard\Vanguard.Web\obj\Debug\Vanguard.dll
 D:\Vanguard\Vanguard.Web\obj\Debug\Vanguard.pdb

@@ -24,7 +24,6 @@ var DBG = function (c, x) {
 }
 //default click handler for examples...
 	, exampleClicks = function (ev) {
-	    alert("You clicked '" + ($(this).parent().find('img').jqDock('get').Title) + "' <" + this.tagName.toUpperCase() + ">");
 	    $('#appContactManager').AeroWindow({
 	        WindowTitle: $(this).parent().find('img').jqDock('get').Title,
 	        WindowPositionTop: 'center',
